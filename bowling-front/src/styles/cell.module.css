@@ -1,0 +1,36 @@
+.cell{
+    height: 80px;
+    width: 80px;
+    background-color:aquamarine;
+    border: 2px solid ;
+    border-radius: 8px;
+    padding: 5px;
+}
+ 
+
+
+
+.frame{
+    display: flex;
+    height: 35px;
+    
+   
+}
+.fFrame{
+    margin-right: 40px;
+    margin-left: 10px;
+    
+   
+
+   
+}
+.sFrame{
+    
+   
+   
+}
+.total{
+ margin-right: 40px;
+    
+   
+}

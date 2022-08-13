@@ -1,0 +1,172 @@
+.container{
+    display: flex;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    height: 900px;
+    
+}
+.card{
+    margin: 70px;
+    padding: 30px;
+    width: 500px;
+    height: 450px;
+    border-color:rgb(248, 248, 248);
+    border-style: solid;
+    border-width: 5px;
+    background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 70px;
+    font: 1.2em "Brush Script MT";
+    font-size: 50px;
+    
+}
+
+
+
+
+
+
+/* CSS */
+.button2 {
+    margin-right: 190px;
+    margin-top: 50px;
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button2:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button2:hover:after {
+  transform: translate(0, 0);
+}
+
+.button2:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button2:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button2 {
+    padding: 0 40px;
+  }
+}
+
+.button1 {
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button1:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button1:hover:after {
+  transform: translate(0, 0);
+}
+
+.button1:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button1:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button1 {
+    padding: 0 40px;
+  }
+}
+
+.alert {
+    
+    -webkit-animation: fadeinout 1s linear forwards;
+    animation: fadeinout 2s linear forwards;
+}
+
+@-webkit-keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @keyframes fadeinout {
+    0%,100% { opacity: 0; }
+    0% { opacity: 1; }
+  }
